@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-es6-weak-map-$1/ \
+ https://github.com/medikoo/es6-weak-map/tags .*/archive/.*/v?([\d\.]+).tar.gz

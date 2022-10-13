@@ -1,0 +1,41 @@
+node-es6-weak-map (2.0.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Mon, 08 Nov 2021 17:01:07 +0100
+
+node-es6-weak-map (2.0.3-1) unstable; urgency=medium
+
+  * Team Upload
+
+  [ Abraham Raji ]
+  * New upstream version 2.0.3
+  * Changed install path to usr/share/ in debian/install
+  * Changed section to javascript
+  * Changed to debhelper-compat and bumped version to 12
+  * Changed from Anonscm to Salsa
+  * Bumped standards version to 4.5.0
+  * whitespaces fix
+  * whitespaces and https
+  * No root required
+  * Added Metadata file
+
+  [ Xavier Guimard ]
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+  * Fix copyright
+
+ -- Abraham Raji <avronr@tuta.io>  Mon, 30 Mar 2020 00:16:58 +0000
+
+node-es6-weak-map (2.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #875757)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 14 Sep 2017 16:43:23 +0530

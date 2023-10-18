@@ -1,1 +1,5 @@
-.pc/
+.DS_Store
+/node_modules
+/npm-debug.log
+/.lintcache
+/package-lock.json
